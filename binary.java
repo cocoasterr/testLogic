@@ -22,7 +22,7 @@ public class binary {
     private static String getCharForNumber(double i) {
         return i > 0 && i < 27 ? String.valueOf((char)(i + 64)) : null;
     }
-    public static String convertToIn(String s) {
+    public static String convertToInt(String s) {
         String t = "";
         for (int i = 0; i < s.length(); ++i) {
             char ch = s.charAt(i);
@@ -34,5 +34,4 @@ public class binary {
         }
         return t;
     }
-
 }
