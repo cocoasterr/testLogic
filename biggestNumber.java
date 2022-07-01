@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class biggestNumber {
     public static void main(String[] args) {
         System.out.println("Hello World");
-        maxRedigit(123) ;
-        maxRedigit(231) ;
-        maxRedigit(321) ;
-        maxRedigit(-1)  ;
-        maxRedigit(0)   ;
-        maxRedigit(99)  ;
+        maxRedigit(123);
+        maxRedigit(231);
+        maxRedigit(321);
+        maxRedigit(-1);
+        maxRedigit(0);
+        maxRedigit(99);
         maxRedigit(1000);
     }
 
