@@ -10,10 +10,10 @@ public class reverseWord {
 
             System.out.println("Original word: "+ input);
 
-            for (int i=0; i<input.length(); i++)
-            {
+            for (int i=0; i<input.length(); i++){
                 ch= input.charAt(i);
-                s= ch+s;            }
+                s= ch+s;            
+            }
             System.out.println("Reversed word: "+ s);
         }
     }
